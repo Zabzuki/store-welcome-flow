@@ -13,6 +13,13 @@ the final screen.
 
 *Picking a profile, filling in the store details, answering the questionnaire, and — because the store URL ends in `example-shop.com` — landing on the analytics-destination choice.*
 
+## Features
+
+- Multi-page onboarding flow that branches on the store URL.
+- State carried between pages via the URL hash and `sessionStorage`.
+- Responsive, mobile-first layout (Bootstrap).
+- Pure front end — no backend, no build step.
+
 ## How to install and run
 
 1. Download the example or [clone the repo](https://github.com/Zabzuki/store-welcome-flow.git).
