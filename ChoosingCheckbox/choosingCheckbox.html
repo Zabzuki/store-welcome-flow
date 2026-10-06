@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css"
+    integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="choosingCheckbox.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test</title>
+</head>
+
+<body>
+  <div class="container parent">
+    <div class="row">
+      <div class="col-6 col-lg-6 d-sm-block d-none background"></div>
+      <div class="col-sm-6 col-xs-6 col-lg-6 col-12 background2">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-xs-6 col-lg-6 img mt-5 pt-5 mb-4">
+              <h4 class="text-center">StoreFlow</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-xs-6 col-lg-6 m-auto" style="width: 15rem">
+              <h5 class="text-center">Welcome to StoreFlow</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="progress p-0 m-auto" style="height: 8px; width: 15rem">
+              <div class="progress-bar" role="progressbar" style="width: 100%; background-color: rgb(116, 194, 186)"
+                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="w-100 d-none d-md-block"></div>
+            <div class="col-sm-6 col-xs-6 col-lg-6 mt-3 m-auto">
+              <h6 class="text-center text-secondary">
+                How did you hear about us?
+              </h6>
+            </div>
+            <form id="form">
+              <div class="input-group" style="padding-left: 15%">
+                <div class="input-group-prepend">
+                    <div class="input-group-text m-auto"
+                      style="height: 38px; background-color: white; border: 0px; margin-bottom: 1%;">
+                      <input name="radio" type="radio" aria-label="Radio button for following text input" required/>
+                    </div>
+                  </div>
+                  <p class="text-secondary p-2" style="font-size: x-small; margin-bottom: 1%">
+                    THROUGH AN APP STORE
+                  </p>
+                </div>
+              </div>
+              <div class="input-group" style="padding-left: 15%">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"
+                    style="height: 38px; background-color: white; border: 0px; margin-bottom: 1%;">
+                    <input name="radio" type="radio" aria-label="Radio button for following text input" required/>
+                  </div>
+                </div>
+                <p class="text-secondary p-2" style="font-size: x-small; margin-bottom: 1%">
+                  RECOMMENDED BY MY AGENCY
+                </p>
+              </div>
+              <div class="input-group" style="padding-left: 15%">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"
+                    style="height: 38px; background-color: white; border: 0px; margin-bottom: 1%;">
+                    <input name="radio" type="radio" aria-label="Radio button for following text input" required/>
+                  </div>
+                </div>
+                <p class="text-secondary p-2" style="font-size: x-small; margin-bottom: 1%">
+                  THROUGH A FRIEND / COLLEAGUE
+                </p>
+              </div>
+              <div class="input-group" style="padding-left: 15%">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"
+                    style="height: 38px; background-color: white; border: 0px; margin-bottom: 1%;">
+                    <input name="radio" type="radio" aria-label="Radio button for following text input" required/>
+                  </div>
+                </div>
+                <p class="text-secondary p-2" style="font-size: x-small; margin-bottom: 1%">
+                  I SAW AN AD
+                </p>
+              </div>
+              <div class="input-group" style="padding-left: 15%">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"
+                    style="height: 38px; background-color: white; border: 0px; margin-bottom: 1%;">
+                    <input name="radio" type="radio" aria-label="Radio button for following text input" required/>
+                  </div>
+                </div>
+                <p class="text-secondary p-2" style="font-size: x-small; margin-bottom: 1%; ">
+                  I READ A BLOG POST / ARTICLE / BOOK ABOUT US
+                </p>
+              </div>
+              <div class="input-group" style="padding-left: 15%">
+                <div class="input-group-prepend">
+                  <div class="input-group-text"
+                    style="height: 38px; background-color: white; border: 0px; margin-bottom: 1%;">
+                    <input name="radio" type="radio" aria-label="Radio button for following text input" required/>
+                  </div>
+                </div>
+                <p class="text-secondary p-2" style="font-size: x-small; margin-bottom: 1%">
+                  OTHER
+                </p>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-lg-6 mt-3 m-auto">
+              <h6 class="text-secondary">
+                Are you part of an agency or a consulting firm?
+              </h6>
+            </div>
+            <div class="w-100 d-none d-md-block"></div>
+            <div class="input-group" style="padding-left: 15%">
+              <div class="input-group-prepend">
+                <div class="input-group-text" style="height: 38px; background-color: white; border: 0px;">
+                  <input name="agencyRadio" type="radio" aria-label="Radio button for following text input" required/>
+                </div>
+              </div>
+              <p class="text-secondary p-2" style="font-size: x-small; margin-bottom: 1%">
+                YES
+              </p>
+              <div class="input-group-prepend">
+                <div class="input-group-text" style="height: 38px; background-color: white; border: 0px;">
+                  <input name="agencyRadio" type="radio" aria-label="Radio button for following text input" required/>
+                </div>
+              </div>
+              <p class="text-secondary p-2" style="font-size: x-small; margin-bottom: 1%">
+                NO
+              </p>
+            </div>
+            <div class="input-group">
+              <div class="col-6 col-lg-6 p-2 button text-center">
+                <a type="button" class="btn btn-secondary btn-sm" href="../Store/store.html" style="
+                        background-color: rgb(231, 231, 231);
+                        color: rgb(77, 78, 79);
+                      ">
+                  <span class="oi oi-arrow-left"></span>
+                  BACK
+                </a>
+              </div>
+              <div class="col-6 col-lg-6 p-2 button text-center">
+                <button type="submit" class="btn btn-secondary btn-sm" style="
+                        background-color: rgb(116, 194, 186);
+                        color: secondary;
+                      ">
+                  NEXT
+                  <span class="oi oi-arrow-right"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script type="text/javascript" src="choosingCheckbox.js"></script>
+</body>
+
+</html>
